@@ -1,0 +1,57 @@
+body {
+  text-align: center;
+  background-color: white;
+}
+
+#level-title {
+  font-family: 'Montserrat', cursive;
+  font-size: 5rem;
+  margin:  5%;
+  color: black;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.row {
+  display: inline-block;
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: #ff896b;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: #f5587b;
+}
+
+.green {
+  background-color: #c0ffb3;
+}
+
+.blue {
+  background-color: #b2dffb;
+}
+
+.yellow {
+  background-color: #FFF78F;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
